@@ -6,7 +6,7 @@
   --tertiary: #919a9c; */
   --primary: #ffffff;
   --secondary: #f0fcf9;
-  --primary-black: #171c23;
+  --primary-black: #171c23; 
   --secondary-black: #21272f;
   --tertiary: #707779;
   --ruby: #29d882;
@@ -734,6 +734,9 @@ h2 {
   display: flex;
   justify-content: space-around;
   gap: 40px;
+  background-color:var(--primary);
+  padding-bottom:40px
+  
 }
 .swiper-2 > div {
   width: 60%;
