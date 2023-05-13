@@ -291,7 +291,14 @@ input.checked + .slider:before {
   /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
   box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
 }
-
+@media (max-width: 991px) {
+  .dark-button {
+    top: 25px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+}
 /* end of landing-page */
 /* start of about */
 .about {
@@ -771,17 +778,7 @@ h2 {
     box-shadow: 0 0 6px;
   }
 }
-@media (max-width: 991px) {
-  .dark-button {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-  }
-}
+
 /* end of projects */
 /* start of testimonials */
 .testmonials {
