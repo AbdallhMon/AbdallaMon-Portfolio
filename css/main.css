@@ -150,6 +150,9 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--ruby);
   }
 }
+.navbar-toggler {
+  background-color: white;
+}
 .navbar-toggler:focus {
   box-shadow: none;
   border: 3px solid var(--ruby);
