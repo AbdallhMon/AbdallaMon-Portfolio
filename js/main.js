@@ -60,10 +60,7 @@ window.addEventListener("scroll", () => {
       blob.classList.add("activemb");
     });
   }
-  if (
-    scrollY >
-    about.offsetTop + about.offsetHeight - (window.innerHeight + 100)
-  ) {
+  if (scrollY > about.offsetTop - 400) {
     aboutText.classList.add("activemb");
   }
 });
@@ -72,10 +69,7 @@ let services = document.querySelector(".services");
 
 let servicesGrid = document.querySelector(".services .services-grid");
 window.addEventListener("scroll", () => {
-  if (
-    scrollY >
-    services.offsetTop + services.offsetHeight - window.innerHeight
-  ) {
+  if (scrollY > services.offsetTop - 400) {
     servicesGrid.classList.add("active");
   }
 });
@@ -138,16 +132,12 @@ let testimonialsTesxt = document.querySelector(
 );
 let testiClient = document.querySelector(".testmonials-text .client");
 window.addEventListener("scroll", () => {
-  if (
-    window.scrollY >
-    testimonials.offsetTop + testimonials.offsetHeight - window.innerHeight
-  ) {
+  if (window.scrollY > testimonials.offsetTop - 400) {
     testi.classList.add("active");
   }
 });
 // start of dark mode
-// var sheet = document.styleSheets[0];
-// sheet.insertRule(":root{--blue:#4444FF}");
+
 let input = document.querySelector(".switch input");
 
 let sliderBtn = document.querySelector(".switch .slider");
