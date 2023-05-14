@@ -24,6 +24,8 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
+      background-color: var(--primary); 
+
 }
 body::-webkit-scrollbar {
   width: 0.8em;
